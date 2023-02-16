@@ -1,12 +1,15 @@
 file_format: "1"
 id: skeletyl
-name: Skeletyl
+name: skeletyl
 type: shield
 url: https://github.com/Bastardkb/Skeletyl
-requires: [pro_micro]
-exposes: [i2c_oled]
+requires:
+  - pro_micro
+exposes:
+  - i2c_oled
 features:
   - keys
+  - display
 siblings:
   - skeletyl_left
   - skeletyl_right
